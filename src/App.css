@@ -1,0 +1,5 @@
+.lg\:max-w-7xl {
+    @media (width >= 64rem /* 1024px */) {
+        max-width: var(--container-7xl) /* 80rem = 1280px */;
+    }
+}

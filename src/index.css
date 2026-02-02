@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@import "tailwindcss";
+
+@theme {
+  --font-gowun: "Gowun Batang", serif;
+}
+
+@layer utilities {
+  .font-gowun {
+    font-family: var(--font-gowun);
+  }
+}
+@import "tailwindcss";
+
+@theme {
+  --font-rethink: "Rethink Sans", system-ui, sans-serif;
+}
+
+@layer utilities {
+  .font-rethink {
+    font-family: var(--font-rethink);
+  }
+}
+.lg\:max-w-7xl {
+    @media (width >= 64rem /* 1024px */) {
+        max-width: var(--container-7xl) /* 80rem = 1280px */;
+    }
+}
+
