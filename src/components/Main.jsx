@@ -16,9 +16,9 @@ const Main = () => {
     </div>
 <div className='h-auto w-full    '>
 
-<img className='  w-full h-auto hidden lg:block   md:h-[500px] lg:h-[500px]  mt-17 px-2' src="./public/icons/image break.png"  alt="" />
-<img className='hidden md:block lg:hidden mt-17' src="./public/icons/image break-1.png" alt="" />
-<img className='block md:hidden mt-17' src="./public/icons/image break-1.png" alt="" />
+<img className='  w-full h-auto hidden lg:block   md:h-[500px] lg:h-[500px]  mt-17 px-2' src="/icons/Image break.png"  alt="" />
+<img className='hidden md:block lg:hidden mt-17' src="/icons/Image break-1.png" alt="" />
+<img className='block md:hidden mt-17' src="/icons/Image break-1.png" alt="" />
 
 </div>
 <div>
@@ -56,9 +56,9 @@ const Main = () => {
 
 <div className='h-auto w-full    '>
 
-<img className='  w-full hidden lg:block     mt-40 px-37 h-[500px]' src="./public/icons/image.png"  alt="" />
-<img className='hidden md:block lg:hidden mt-17 ml-5' src="./public/icons/image-1.png" alt="" />
-<img className='block md:hidden mt-17' src="./public/icons/image break-1.png" alt="" />
+<img className='  w-full hidden lg:block     mt-40 px-37 h-[500px]' src="/icons/Image.png"  alt="" />
+<img className='hidden md:block lg:hidden mt-17 ml-5' src="/icons/Image-1.png" alt="" />
+<img className='block md:hidden mt-17' src="/icons/Image break-1.png" alt="" />
 
 </div>
 
@@ -73,11 +73,11 @@ const Main = () => {
 
     <section className="border border-[#5B5B5B] md:min-w-2xl lg:min-w-6xl w-80 rounded-xl md:flex md:flex-row flex-col">
         <div className='pb-12' >
-            <img className="hidden lg:block ml-4 pt-7  h-[300px]" src="./public/icons/Image-man.png" alt=""/>
-            <img className="hidden md:flex lg:hidden  ml-15 pt-7  h-[300px]" src="./public/icons/Image-man-1.png" alt=""/>
+            <img className="hidden lg:block ml-4 pt-7  h-[300px]" src="/icons/image-man.png" alt=""/>
+            <img className="hidden md:flex lg:hidden  ml-15 pt-7  h-[300px]" src="/icons/image-man-1.png" alt=""/>
             
 
-                <img className="block md:hidden px-6 ml-6 pt-9" src="./public/icons/image-man-2.png" alt=""/>
+        <img className="block md:hidden px-6 ml-6 pt-9" src="/icons/image-man-2.png" alt=""/>
             
         </div>
         <div className="lg:ml-40 md:ml-22 text-center max-w-3xl place-content-center">
@@ -97,7 +97,7 @@ const Main = () => {
             <h1 className='text-center pt-5 font-rethink text-[#3D1A0D]'>Upcoming event</h1>
             <h1 className='text-center pt-5 font-gowun text-3xl'> 6/11 Lunch Hour Pizza</h1>
             <div className='lg:ml-19 lg:pt-5 md:pt-13 p-2'>
-                <img src="./public/icons/school.png" alt="" />
+                <img src="/icons/school.png" alt="" />
             </div>
         </div>
 <div className='pt-5'>
@@ -105,7 +105,7 @@ const Main = () => {
  <div className='border lg:min-w-140 md:min-w-70 md:ml-2   min-w-80 pb-6 md:pt-0  rounded-xl '>
             <h1 className='text-center pt-5 font-rethink'>Spotlight</h1>
              <div className='ml-4 pt-5 flex justify-center items-center'>
-                <img src="./public/icons/man.png" alt="" />
+                <img src="/icons/man.png" alt="" />
             </div>
             <h1 className='font-gowun text-center text-3xl'>Johnny S.</h1>
             <h1 className='text-center pt-5 font-rethink text-[#5B5B5B]'> Congrats Johnny on <br className='hidden md:flex lg:hidden '/>qualifying <br className='block md:hidden'/>  for Nationals!</h1>
@@ -146,9 +146,9 @@ const Main = () => {
 
 
     <div>
-        <img className='hidden lg:block pt-20' src="./public/icons/lab.png" alt="" />
-        <img className='hidden md:flex lg:hidden pt-20' src="./public/icons/lab-2.png" alt="" />
-        <img className='block md:hidden pt-20' src="./public/icons/lab-3.png" alt="" />
+        <img className='hidden lg:block pt-20' src="/icons/lab.png" alt="" />
+        <img className='hidden md:flex lg:hidden pt-20' src="/icons/lab-2.png" alt="" />
+        <img className='block md:hidden pt-20' src="/icons/lab-3.png" alt="" />
     </div>
     </>
   )
