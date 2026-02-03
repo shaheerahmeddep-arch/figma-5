@@ -4,7 +4,10 @@ const Main = () => {
   return (
     <>
     <div className='md:pl-0 pl-3 '>
-        <button className='bg-[#F6F0E4] md:gap-53 lg:gap-178 md:px-4 px-9 flex flex-col lg:flex-row md:flex-row  p-4 m-3 rounded-2xl'>
+        <button className='bg-[#F6F0E4] px-6 flex flex-col md:flex-row 
+justify-between items-start md:items-center 
+p-4 m-3 rounded-2xl w-full max-w-[1450px] mx-auto'>
+
             <p className='font-rethink'>Announcement: Spring ASB Election is <br className='block md:hidden'/> now live for voting!</p>
             <span className='underline font-rethink'>Survay here</span>
         </button>

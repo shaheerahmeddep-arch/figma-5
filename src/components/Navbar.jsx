@@ -20,7 +20,7 @@ const Navbar = () => {
         <li>Menu</li>
      </ul>
     </div>
-        <div class="h-[0.5px] bg-[#969696] md:w-190 lg:w-310 w-95 mr-48 md:mt-0 mt-3 mb-2"></div>
+<div class="h-px bg-[#969696] w-full max-w-[1500px]   mb-2"></div>
     </>
   )
 }
